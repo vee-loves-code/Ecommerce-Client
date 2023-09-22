@@ -50,6 +50,10 @@ export const CreditCardForm = () => {
 
   return (
     <div className="w-[80%] md:w-[30%] m-auto my-auto">
+      <div className="text-center">
+    <div className="text-3xl font-bold">Jessy's Store</div>
+    <br />
+    </div>
       <form>
         <small style={{ color: "red", margin: "0", padding: "0" }}>
           {cardDetailsErrors.cardNumber}
